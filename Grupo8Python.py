@@ -1,4 +1,4 @@
-import function
+import Function
 
 #Contraseñas y usuarios precargados
 usuarios = ["davirosas", "admin", "cliente"]
@@ -12,7 +12,7 @@ stocks = []
 #Verificación usuario inicio de sesión
 print("")
 print("---Bienvenido a BigStore---")
-acceso = function.inicioSesion(usuarios, contrasenas)
+acceso = Function.inicioSesion(usuarios, contrasenas)
 
 #Main - Menu y flujo principal del sistema
 if acceso==True:
@@ -30,13 +30,13 @@ if acceso==True:
 
         #Funciones del menu
         if op == 1:
-            function.agregarProducto()
+            Function.agregarProducto()
         elif op == 2:
-            function.modificarProducto()
+            Function.modificarProducto()
         elif op == 3:
-            function.realizarCompra()
+            Function.realizarCompra()
         elif op == 4:
-            function.reporteProductos()
+            Function.reporteProductos()
         elif op == 5:
             print("")
             print("👋 Gracias por utilizar BigStore")
