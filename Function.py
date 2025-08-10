@@ -36,6 +36,7 @@ def agregarProducto():
 
 def modificarProducto():
     print("--- MODIFICAR PRODUCTO ---")
+    
 
 def realizarCompra():
     print("--- REALIZAR COMPRA ---")
