@@ -30,16 +30,17 @@ if acceso==True:
 
         #Funciones del menu
         if op == 1:
-            Function.agregarProducto()
+            Function.agregarProducto(productos)
         elif op == 2:
-            Function.modificarProducto()
+            Function.modificarProducto(productos)
         elif op == 3:
-            Function.realizarCompra()
+            Function.realizarCompra(productos)
         elif op == 4:
-            Function.reporteProductos()
+            Function.reporteProductos(productos)
         elif op == 5:
             print("")
             print("👋 Gracias por utilizar BigStore")
+            break 
         else:
             print("🚫 -Ingrese una opción valida")
 
@@ -47,6 +48,8 @@ elif acceso==False:
     print("")
     print("🚫 ---ACCESO DENEGADO--- 🚫")
     print("👋 Gracias por utilizar BigStore")
+    break
 else:
     print("")
     print("👋 Gracias por utilizar BigStore")
+    break 
